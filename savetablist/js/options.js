@@ -106,7 +106,7 @@ function fileexport(){
 function fileexport_finish(){
 }
 function localStorageClean(){
-	if(confirm('是否确定要清空所有保存条目？')){
+	if(confirm('是否确定要清空所有保存条目？（本机保存的内容将被清空！）')){
 		//先摘录出需要保存的变量
 		var vl = ["option:NeedTip_restoreWindow","option:NeedNoTip_delItem","qq"];//new Array("option:needtip");
 		var vr = [];
