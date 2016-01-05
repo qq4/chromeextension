@@ -1,0 +1,24 @@
+{ 
+"manifest_version": 2,
+  "name": "savetablist",
+  "version": "1.2",
+  "description": "save current tab list for reload/reopen later.",
+  "browser_action": {
+    "default_icon": "icon.png" ,
+    "default_title": "Save tab list",
+    "default_popup": "popup.html"
+  },
+  "background": {
+        "page": "background.html",
+	"persistent": false
+  },
+  "permissions": [
+        "tabs",
+        "http://localhost:9240/",
+        "activeTab",
+        "notifications",
+	"storage",
+	"http://*/"
+  ],
+  "options_page": "options.html"
+}

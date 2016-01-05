@@ -1,0 +1,51 @@
+body    {color:#003366; background-color:#ffffff; font-size:9pt; font-family:Arial,Verdana,Helvetica,sans-serif; margin:0px}
+input   {font-size:9pt; font-family:Arial}
+select  {font-size:9pt; font-family:Verdana,SimHei,Tahoma,Arial}
+
+a:link    {color:#003366}
+a:visited {color:#003366}
+a:active  {color:#003366}
+a:hover   {color:#4466aa; text-decoration:none}
+
+.selectL {background-color:#DFFFFF;font-size:8pt;font-family:Tahoma,Arial}
+.selectM {font-size:8pt;font-family:SimHei,Arial;align:center}
+.selectR {background-color:#FFFFDF;font-size:8pt;font-family:Tahoma,Arial}
+
+.title9 {font-size:9pt;font-family:Tahoma,Arial}
+
+.tbListH {background-color:#FFFF00;font-size:9pt;font-family:Verdana,Arial;align:center;color:#FF0000;font-weight:bold;}
+.tbListB {background-color:#FFF0F0;font-size:9pt;font-family:Verdana,Arial;align:center;}
+
+.tbEditL {background-color:#0000FF;color:#FFFF00;font-family:Arial;font-size:10pt;font-weight:bold;align=right;}
+.tbEditL9 {background-color:#0000FF;color:#FFFF00;font-family:Arial;font-size:9pt;font-weight:bold;align=right;}
+.tbEditR {background-color:#FFFFF0;font-family:Arial;font-size:10pt;}
+.tbEditR9 {background-color:#FFFFF0;font-family:Arial;font-size:9pt;}
+.tbEditL8 {background-color:#0000FF;color:#FFFF00;font-family:Arial;font-size:8pt;font-weight:bold;align=right;}
+.tbEditR8 {background-color:#FFFFF0;font-family:Arial;font-size:8pt;}
+.tbEditNonEnable {background-color:#F0F0F0;font-family:Arial;font-size:10pt;}
+
+.tbShowL {background-color:#00FFFF;color:#800080;font-family:Arial;font-size:12pt;font-weight:bold;}
+.tbShowR {background-color:#FFFACD;color:#0000FF;font-family:Arial;font-size:12pt;font-weight:bold;}
+.tbShowL8 {background-color:#00FFFF;color:#800080;font-family:Arial;font-size:8pt;font-weight:bold;}
+.tbShowR8 {background-color:#FFFACD;color:#0000FF;font-family:Arial;font-size:8pt;font-weight:bold;}
+.tbShowL9 {background-color:#00FFFF;color:#800080;font-family:Arial;font-size:9pt;font-weight:bold;}
+.tbShowR9 {background-color:#FFFACD;color:#0000FF;font-family:Arial;font-size:9pt;font-weight:bold;}
+
+.btOk12 {font-family:Arial;font-size:12pt;font-weight:bold;width:80;}
+
+.f10     { font-family: Arial; font-size: 10pt }
+
+#one {
+position:absolute;top:100px;left:872px;
+background:#cc9;
+height:48px;width:130px;
+}
+
+/******below for struts2*******/
+
+.tdLabel {border:outset 2px; background-color:blue; color:yellow;}
+.tdTextfield {background-color:lightyellow;}
+.tdTextfieldReadonly {background-color:#F0F0F0;color:#3C3C3C}
+.tdTextfieldShowLabel {color:red}
+
+/******* Struts2 ***************/
